@@ -22,6 +22,15 @@
 		868FB0632433558C007FFFB0 /* Calculate_Sub.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB0622433558C007FFFB0 /* Calculate_Sub.m */; };
 		868FB06F243374F1007FFFB0 /* AddFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB06E243374F1007FFFB0 /* AddFactory.m */; };
 		868FB07224337502007FFFB0 /* SubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB07124337502007FFFB0 /* SubFactory.m */; };
+		868FB07B24339E4B007FFFB0 /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB07A24339E4B007FFFB0 /* Staff.m */; };
+		868FB07E24339E59007FFFB0 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB07D24339E59007FFFB0 /* Department.m */; };
+		868FB08224339F55007FFFB0 /* SQLServerStaff.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB08124339F55007FFFB0 /* SQLServerStaff.m */; };
+		868FB08524339FAF007FFFB0 /* AccessStaff.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB08424339FAF007FFFB0 /* AccessStaff.m */; };
+		868FB0892433A14D007FFFB0 /* SQLServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB0882433A14D007FFFB0 /* SQLServerDepartment.m */; };
+		868FB08C2433A15A007FFFB0 /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB08B2433A15A007FFFB0 /* AccessDepartment.m */; };
+		868FB0902433A489007FFFB0 /* SQLServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB08F2433A489007FFFB0 /* SQLServerFactory.m */; };
+		868FB0932433A4A1007FFFB0 /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB0922433A4A1007FFFB0 /* AccessFactory.m */; };
+		868FB09624343294007FFFB0 /* DBFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB09524343294007FFFB0 /* DBFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +82,27 @@
 		868FB07024337502007FFFB0 /* SubFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubFactory.h; sourceTree = "<group>"; };
 		868FB07124337502007FFFB0 /* SubFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubFactory.m; sourceTree = "<group>"; };
 		868FB073243375B3007FFFB0 /* CalculateFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateFactoryProtocol.h; sourceTree = "<group>"; };
+		868FB07924339E4B007FFFB0 /* Staff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
+		868FB07A24339E4B007FFFB0 /* Staff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
+		868FB07C24339E59007FFFB0 /* Department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		868FB07D24339E59007FFFB0 /* Department.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		868FB07F24339ED6007FFFB0 /* StaffProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffProtocol.h; sourceTree = "<group>"; };
+		868FB08024339F55007FFFB0 /* SQLServerStaff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLServerStaff.h; sourceTree = "<group>"; };
+		868FB08124339F55007FFFB0 /* SQLServerStaff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLServerStaff.m; sourceTree = "<group>"; };
+		868FB08324339FAF007FFFB0 /* AccessStaff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessStaff.h; sourceTree = "<group>"; };
+		868FB08424339FAF007FFFB0 /* AccessStaff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessStaff.m; sourceTree = "<group>"; };
+		868FB0862433A131007FFFB0 /* DepartmentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepartmentProtocol.h; sourceTree = "<group>"; };
+		868FB0872433A14D007FFFB0 /* SQLServerDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLServerDepartment.h; sourceTree = "<group>"; };
+		868FB0882433A14D007FFFB0 /* SQLServerDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLServerDepartment.m; sourceTree = "<group>"; };
+		868FB08A2433A15A007FFFB0 /* AccessDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
+		868FB08B2433A15A007FFFB0 /* AccessDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
+		868FB08D2433A408007FFFB0 /* DBFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBFactoryProtocol.h; sourceTree = "<group>"; };
+		868FB08E2433A489007FFFB0 /* SQLServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLServerFactory.h; sourceTree = "<group>"; };
+		868FB08F2433A489007FFFB0 /* SQLServerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLServerFactory.m; sourceTree = "<group>"; };
+		868FB0912433A4A1007FFFB0 /* AccessFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
+		868FB0922433A4A1007FFFB0 /* AccessFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
+		868FB09424343294007FFFB0 /* DBFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBFactory.h; sourceTree = "<group>"; };
+		868FB09524343294007FFFB0 /* DBFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +192,11 @@
 		868FB05224335358007FFFB0 /* AbstractFactory（抽象工厂模式） */ = {
 			isa = PBXGroup;
 			children = (
+				868FB07824339998007FFFB0 /* Optimized version */,
+				868FB07524339998007FFFB0 /* Basic version */,
+				868FB07624339998007FFFB0 /* Department */,
+				868FB07424339998007FFFB0 /* Staff */,
+				868FB07724339998007FFFB0 /* Model */,
 			);
 			name = "AbstractFactory（抽象工厂模式）";
 			path = AbstractFactory;
@@ -194,6 +229,62 @@
 			);
 			name = "SimpleFactory（简单工厂模式）";
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		868FB07424339998007FFFB0 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				868FB07F24339ED6007FFFB0 /* StaffProtocol.h */,
+				868FB08024339F55007FFFB0 /* SQLServerStaff.h */,
+				868FB08124339F55007FFFB0 /* SQLServerStaff.m */,
+				868FB08324339FAF007FFFB0 /* AccessStaff.h */,
+				868FB08424339FAF007FFFB0 /* AccessStaff.m */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		868FB07524339998007FFFB0 /* Basic version */ = {
+			isa = PBXGroup;
+			children = (
+				868FB08D2433A408007FFFB0 /* DBFactoryProtocol.h */,
+				868FB08E2433A489007FFFB0 /* SQLServerFactory.h */,
+				868FB08F2433A489007FFFB0 /* SQLServerFactory.m */,
+				868FB0912433A4A1007FFFB0 /* AccessFactory.h */,
+				868FB0922433A4A1007FFFB0 /* AccessFactory.m */,
+			);
+			path = "Basic version";
+			sourceTree = "<group>";
+		};
+		868FB07624339998007FFFB0 /* Department */ = {
+			isa = PBXGroup;
+			children = (
+				868FB0862433A131007FFFB0 /* DepartmentProtocol.h */,
+				868FB0872433A14D007FFFB0 /* SQLServerDepartment.h */,
+				868FB0882433A14D007FFFB0 /* SQLServerDepartment.m */,
+				868FB08A2433A15A007FFFB0 /* AccessDepartment.h */,
+				868FB08B2433A15A007FFFB0 /* AccessDepartment.m */,
+			);
+			path = Department;
+			sourceTree = "<group>";
+		};
+		868FB07724339998007FFFB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868FB07924339E4B007FFFB0 /* Staff.h */,
+				868FB07A24339E4B007FFFB0 /* Staff.m */,
+				868FB07C24339E59007FFFB0 /* Department.h */,
+				868FB07D24339E59007FFFB0 /* Department.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		868FB07824339998007FFFB0 /* Optimized version */ = {
+			isa = PBXGroup;
+			children = (
+				868FB09424343294007FFFB0 /* DBFactory.h */,
+				868FB09524343294007FFFB0 /* DBFactory.m */,
+			);
+			path = "Optimized version";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,14 +419,23 @@
 			files = (
 				868FB07224337502007FFFB0 /* SubFactory.m in Sources */,
 				868FB06F243374F1007FFFB0 /* AddFactory.m in Sources */,
+				868FB0932433A4A1007FFFB0 /* AccessFactory.m in Sources */,
+				868FB0892433A14D007FFFB0 /* SQLServerDepartment.m in Sources */,
+				868FB0902433A489007FFFB0 /* SQLServerFactory.m in Sources */,
+				868FB08C2433A15A007FFFB0 /* AccessDepartment.m in Sources */,
 				868FB05A24335528007FFFB0 /* CalculateFactory.m in Sources */,
+				868FB07B24339E4B007FFFB0 /* Staff.m in Sources */,
 				868FB0632433558C007FFFB0 /* Calculate_Sub.m in Sources */,
 				868FB025243352C5007FFFB0 /* ViewController.m in Sources */,
 				868FB06024335570007FFFB0 /* Calculate_Add.m in Sources */,
 				868FB01F243352C5007FFFB0 /* AppDelegate.m in Sources */,
 				868FB030243352C7007FFFB0 /* main.m in Sources */,
+				868FB09624343294007FFFB0 /* DBFactory.m in Sources */,
 				868FB05D2433553E007FFFB0 /* Calculate.m in Sources */,
 				868FB022243352C5007FFFB0 /* SceneDelegate.m in Sources */,
+				868FB08224339F55007FFFB0 /* SQLServerStaff.m in Sources */,
+				868FB08524339FAF007FFFB0 /* AccessStaff.m in Sources */,
+				868FB07E24339E59007FFFB0 /* Department.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
